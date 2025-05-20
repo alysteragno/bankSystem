@@ -29,8 +29,14 @@
 
                             <div>
                                 <a href="balance.php">
-                                    <img src="img\transaction.png" alt="">
+                                    <img src="img\transaction.png" alt="" class="balanceLogo">
                                 </a>
+                            </div>
+
+                            <div class="btnContainer">
+                                <button class="btn2">
+                                    <a href="balance.php" class="ctabth">Check Balance</a>  
+                                </button>
                             </div>
                         </div>
 
