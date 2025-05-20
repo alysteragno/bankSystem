@@ -40,9 +40,24 @@
                             </div>
                         </div>
 
+                <div class="balanceContainer">
+                        <a href="deposit.php" class="cta">Deposit</a>
 
 
-                                <a href="deposit.php">Deposit</a></li>
+                    <div>
+                        <a href="deposit.php">
+                            <img src="img\depositLogo.svg" alt="" class="balanceLogo">
+                        </a>
+                    </div>
+
+                    <div class="btnContainer">
+                        <button class="btn2">
+                            <a href="deposit.php">Deposit</a></li> 
+                        </button>
+                    </div>
+                </div>
+
+                                
                                 <a href="withdraw.php">Withdraw</a>
 
                     </div>
