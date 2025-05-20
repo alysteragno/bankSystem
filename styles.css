@@ -24,7 +24,10 @@ header {
     font-weight: 400;
 }
 
-
+.balanceLogo {
+    width: 6em;
+    padding: 0em 1em 0.5em;
+}
 container {
 
 }
@@ -118,9 +121,11 @@ img {
 
 .btn {
     padding: 1em;
+    border-radius: 10px;
 }
 
 footer {
+    margin-top: 10em;
     display: flex;
     flex-direction: column;
     justify-content: center;    
@@ -147,4 +152,18 @@ h4 {
         padding: 0em 0em 1em 1em;
         text-align: center;
         margin: 0em;
+}
+
+.btn2 {
+    padding: 0.6em;
+    margin-bottom: 1em;
+    border-radius: 10px; 
+}
+
+
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
 }
