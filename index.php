@@ -56,7 +56,19 @@
             
                 </div>
     </div>
-
+    <footer>
+        <div>
+            <h3>Developed by: Alyster A</h3>
+        </div>
+        <div>
+            <h4>All rights reserved.</h4>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/alyster-marasigan-9314692ba/" target="_blank">
+                <img src="img\linkedLogo.svg" alt="" class="linkedLogo">
+            </a>
+        </div>
+    </footer>
     
     
 </body>
