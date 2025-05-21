@@ -65,7 +65,7 @@
     </div>
 
        <div class="withdrawContainer">
-                    <div class="balanceContainer4">
+                    <div class="balanceContainer45">
                             <a href="withdraw.php" class="cta">Withdraw</a>
                         <div>
                             <a href="withdraw.php">
