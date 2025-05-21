@@ -4,9 +4,6 @@
     font-family: Nunito;
 }
 
-body {
-    min-height: 100vh;
-}
 header {
     display: flex;
     justify-content: center;
@@ -27,11 +24,10 @@ header {
     font-weight: 400;
 }
 
-.balanceLogo {
-    width: 6em;
-    padding: 0em 1em 0.5em;
-}
 
+container {
+
+}
 
 .mainContainer {
     display: flex;
@@ -49,8 +45,6 @@ header {
     background-color: rgb(243, 242, 242);
     border: 2px solid rgb(217, 217, 217); 
     max-width: 190px;
-    width: 18em;
-    margin-bottom: 2em;
 }
 
 a {
@@ -67,9 +61,7 @@ a {
     display: flex;
     justify-content: center;
     padding: 1em;
-    width: 100%;     
-
-    
+    width: 100%;          /* Optional if you want full width */
 }
 
 
@@ -79,8 +71,19 @@ img {
     padding: 0em 1em 1.5em;
 }
 
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 2em;
+    grid-row-gap: 0px;
+    padding: 1em;
+}
 
-
+.div1 { grid-area: 2 / 2 / 3 / 3; }
+.div2 { grid-area: 2 / 4 / 3 / 5; }
+.div3 { grid-area: 4 / 2 / 5 / 3; }
+.div4 { grid-area: 4 / 4 / 5 / 5; }
 
 .parent2 {
     display: flex;
@@ -98,7 +101,7 @@ img {
     border: 2px solid rgb(217, 217, 217); 
     max-width: 80em;
     margin: 5em;
-    width: 17em;
+    width: 30em;
     padding: 2em;
 }
 
@@ -109,27 +112,20 @@ img {
     border-radius: 100px;
 }
 
+.cta bth {
+
+}
+
 .btn {
     padding: 1em;
-    border-radius: 10px;
-
-
-
-     &:hover {
-        background-color: #7d9cc0;
-        cursor: pointer;
-    }
 }
 
 footer {
-    margin-top: 10em;
     display: flex;
     flex-direction: column;
     justify-content: center;    
     align-items: center;
     background-color: #1d5595;
-    box-sizing: border-box;
-   
 }
 
 .linkedLogo {
@@ -151,127 +147,4 @@ h4 {
         padding: 0em 0em 1em 1em;
         text-align: center;
         margin: 0em;
-}
-
-.btn2 {
-    padding: 0.6em;
-    margin-bottom: 1em;
-    border-radius: 10px; 
-}
-
-
-.btnContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-}
-
-.form-control {
-    padding: 1em;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-}
-
-.depositContainer {
-    display: flex;
-    justify-content: center;
-    border-radius: 1.3em;
-    background-color: rgb(243, 242, 242);
-    padding: 1em 0em 0em 0em;
-}
-
-#btnD {
-    border-radius: 1em;
-    padding: 1em;
-    width: 100%;
-    font-weight: 700;
-
-    &:hover {
-        background-color: #1d5595;
-        cursor: pointer;
-    }
-}
-.btnD {
-    border-radius: 1em;
-    padding: 1em;
-    width: 100%;
-    font-weight: 700;
-
-    &:hover {
-        background-color: #1d5595;
-        cursor: pointer;
-    }
-}
-
-#depositText {
-    font-weight: 600;
-    padding: 1em 0em 0em 0em;
-    font-size: large;
-    display: none;
-}
-
-.withdrawContainer {
-    justify-content: center;
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-    margin-top: 2em;
-
-    @media (min-width: 868px) {
-        flex-direction: row;
-        gap: 7em;
-    }
-}
-
-
-    
-
-.balanceContainer45 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.3em;
-    background-color: rgb(243, 242, 242);
-    border: 2px solid rgb(217, 217, 217); 
-    width: 12em;
-    margin-bottom: 2em;
-}
-.balanceContainer4 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.3em;
-    background-color: rgb(243, 242, 242);
-    border: 2px solid rgb(217, 217, 217); 
-    width: 18em;
-}
-
-.withdrawpageCon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 3em 0em 5em 0em;
-    width: 100%;
-    height: 20em;
-}
-
-#withdrawCta {
-    border-radius: 1em;
-    margin-top: 3em;
-    padding: 1em;
-    width: 80%;
-    font-weight: 700;
-    
-
-    &:hover {
-        background-color: #1d5595;
-        cursor: pointer;
-    }
-}
-
-form {
-    padding: 4em;
 }
