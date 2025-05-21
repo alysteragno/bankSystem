@@ -4,6 +4,9 @@
     font-family: Nunito;
 }
 
+body {
+    min-height: 100vh;
+}
 header {
     display: flex;
     justify-content: center;
@@ -48,6 +51,8 @@ container {
     background-color: rgb(243, 242, 242);
     border: 2px solid rgb(217, 217, 217); 
     max-width: 190px;
+
+    
 }
 
 a {
@@ -64,7 +69,9 @@ a {
     display: flex;
     justify-content: center;
     padding: 1em;
-    width: 100%;          /* Optional if you want full width */
+    width: 100%;     
+
+    
 }
 
 
@@ -77,16 +84,11 @@ img {
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
-    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 2em;
     grid-row-gap: 0px;
     padding: 1em;
 }
 
-.div1 { grid-area: 2 / 2 / 3 / 3; }
-.div2 { grid-area: 2 / 4 / 3 / 5; }
-.div3 { grid-area: 4 / 2 / 5 / 3; }
-.div4 { grid-area: 4 / 4 / 5 / 5; }
 
 .parent2 {
     display: flex;
@@ -115,13 +117,16 @@ img {
     border-radius: 100px;
 }
 
-.cta bth {
-
-}
-
 .btn {
     padding: 1em;
     border-radius: 10px;
+
+
+
+     &:hover {
+        background-color: #7d9cc0;
+        cursor: pointer;
+    }
 }
 
 footer {
@@ -131,6 +136,8 @@ footer {
     justify-content: center;    
     align-items: center;
     background-color: #1d5595;
+    box-sizing: border-box;
+   
 }
 
 .linkedLogo {
@@ -166,4 +173,66 @@ h4 {
     justify-content: center;
     align-items: center;
     border-radius: 100px;
+}
+
+.form-control {
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.depositContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 1.3em;
+    background-color: rgb(243, 242, 242);
+    padding: 1em 0em 0em 0em;
+}
+
+#btnD {
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+    font-weight: 700;
+
+    &:hover {
+        background-color: #1d5595;
+        cursor: pointer;
+    }
+}
+.btnD {
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+    font-weight: 700;
+
+    &:hover {
+        background-color: #1d5595;
+        cursor: pointer;
+    }
+}
+
+#depositText {
+    font-weight: 600;
+    padding: 1em 0em 0em 0em;
+    font-size: large;
+    display: none;
+}
+
+.withdrawContainer {
+    justify-content: center;
+    display: flex;
+    margin-top: 2em;
+}
+
+.balanceContainer4 {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.3em;
+    background-color: rgb(243, 242, 242);
+    border: 2px solid rgb(217, 217, 217); 
+    max-width: 190px;
+    width: 100em;
 }
