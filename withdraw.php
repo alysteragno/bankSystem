@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +30,11 @@
                             <input type="number" name="amount" placeholder="Enter withdraw amount" step="0.01" required class="form-control">
                     <div class="depositContainer">
                         <button type="submit" id="withdrawCta">Withdraw</button>
+                    </div>
+                    <div class="">
+                        <h2 id="depositTextwithdraw">
+                          
+                        </h2>
                     </div>
                         </form>
                     </div>
