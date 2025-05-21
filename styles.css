@@ -49,8 +49,8 @@ header {
     background-color: rgb(243, 242, 242);
     border: 2px solid rgb(217, 217, 217); 
     max-width: 190px;
-
-    
+    width: 18em;
+    margin-bottom: 2em;
 }
 
 a {
@@ -79,13 +79,7 @@ img {
     padding: 0em 1em 1.5em;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    grid-column-gap: 2em;
-    grid-row-gap: 0px;
-    padding: 1em;
-}
+
 
 
 .parent2 {
@@ -219,9 +213,19 @@ h4 {
 
 .withdrawContainer {
     justify-content: center;
+    flex-direction: column;
     display: flex;
+    align-items: center;
     margin-top: 2em;
+
+    @media (min-width: 868px) {
+        flex-direction: row;
+        gap: 7em;
+    }
 }
+
+
+    
 
 .balanceContainer45 {
     display: flex;
@@ -232,6 +236,7 @@ h4 {
     background-color: rgb(243, 242, 242);
     border: 2px solid rgb(217, 217, 217); 
     width: 12em;
+    margin-bottom: 2em;
 }
 .balanceContainer4 {
     display: flex;

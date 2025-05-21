@@ -22,7 +22,7 @@
                     <h2 class="mottoo">We Find Ways.</h2>
                 </div>  
 
-                <div class="parent">
+                <div class="withdrawContainer"> 
                         <div class="balanceContainer">
                                     <a href="balance.php" class="cta">Balance</a>
 
@@ -55,16 +55,7 @@
                     </div>
                 </div>
 
-             
-
-                   
-                </div>
                 
-             
-            
-    </div>
-
-       <div class="withdrawContainer">
                     <div class="balanceContainer45">
                             <a href="withdraw.php" class="cta">Withdraw</a>
                         <div>
@@ -81,7 +72,15 @@
                     </div>        
 
                     </div>
-        </div>
+
+                   
+                </div>
+                
+             
+            
+    </div>
+
+    
     <footer>
         <div>
             <h3>Developed by: Alyster A</h3>
