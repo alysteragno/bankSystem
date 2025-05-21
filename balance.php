@@ -28,8 +28,9 @@ $_SESSION['balance'] = 0;
                 </div>  
                 <div>
 
-                    <div class="withdrawContainer">
-                        <div class="withdraw2">
+                    
+                    <div class="parent2">
+                        <div class="balanceContainer2">
                             <h1>Your Current Balance is 
                             $<?php 
                             echo number_format($_SESSION['balance'], 2); ?>
@@ -43,7 +44,6 @@ $_SESSION['balance'] = 0;
                         </button>
                     </div>
 
-                 
                     
       <footer>
         <div>
