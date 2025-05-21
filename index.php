@@ -42,8 +42,6 @@
 
                 <div class="balanceContainer">
                         <a href="deposit.php" class="cta">Deposit</a>
-
-
                     <div>
                         <a href="deposit.php">
                             <img src="img\depositLogo.svg" alt="" class="balanceLogo">
@@ -57,20 +55,33 @@
                     </div>
                 </div>
 
-                                
-                                <a href="withdraw.php">Withdraw</a>
+             
+
+                   
+                </div>
+                
+             
+            
+    </div>
+
+       <div class="withdrawContainer">
+                    <div class="balanceContainer4">
+                            <a href="withdraw.php" class="cta">Withdraw</a>
+                        <div>
+                            <a href="withdraw.php">
+                                <img src="img\atm.png" alt="" class="balanceLogo">
+                            </a>
+                        </div>
+
+                        <div class="btnContainer">
+                            <button class="btn2">
+                                <a href="withdraw.php">Withdraw</a></li> 
+                            </button>
+                        </div>
+                    </div>        
 
                     </div>
-            <form action="search.php" method="GET">
-                    <input type="text" name="query" placeholder="Search..." />
-                    <button type="submit">Go</button>
-                    </form>
-                </li>
-                </ul>
-                        </container>
-            
-                </div>
-    </div>
+        </div>
     <footer>
         <div>
             <h3>Developed by: Alyster A</h3>
