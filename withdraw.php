@@ -22,63 +22,22 @@
                     <h2 class="mottoo">We Find Ways.</h2>
                 </div>  
 
-                <div class="parent">
-                        <div class="balanceContainer">
-                                    <a href="balance.php" class="cta">Balance</a>
-
-
-                            <div>
-                                <a href="balance.php">
-                                    <img src="img\transaction.png" alt="" class="balanceLogo">
-                                </a>
-                            </div>
-
-                            <div class="btnContainer">
-                                <button class="btn2">
-                                    <a href="balance.php" class="ctabth">Check Balance</a>  
-                                </button>
-                            </div>
-                        </div>
-
-                <div class="balanceContainer">
-                        <a href="deposit.php" class="cta">Deposit</a>
-
-
-                    <div>
-                        <a href="deposit.php">
-                            <img src="img\depositLogo.svg" alt="" class="balanceLogo">
-                        </a>
+                <div class="withdrawpageCon">
+                    <div class="balanceContainer4"> 
+                        <form action="withdraw.php">
+                            <input type="number" name="amount" placeholder="Enter withdraw amount" step="0.01" required class="form-control">
+                    <div class="depositContainer">
+                        <button type="submit" id="withdrawCta">Withdraw</button>
                     </div>
-
-                    <div class="btnContainer">
-                        <button class="btn2">
-                            <a href="deposit.php">Deposit</a></li> 
-                        </button>
-                    </div>
-                </div>
-
-                             
-                         <div class="balanceContainer">
-                        <a href="deposit.php" class="cta">Deposit</a>
-
-
-                <div>
-                        <a href="withdraw.">
-                            <img src="img\atm.png" alt="" class="balanceLogo">
-                        </a>
-                    </div>
-
-                    <div class="btnContainer">
-                        <button class="btn2">
-                            <a href="withdraw.php">Withdraw</a>
-                        </button>
+                        </form>
                     </div>
                 </div>
                                 
-
-                    </div>
-                   
-    </div>
+             <div class="btnContainer">
+                        <button class="btn">
+                             <a href="index.php" class="ctabth">Back to Home</a>  
+                        </button>
+            </div>
     <footer>
         <div>
             <h3>Developed by: Alyster A</h3>
